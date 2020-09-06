@@ -18,8 +18,6 @@ namespace ConsoleApp2
         {
             Random rand = new Random();
 
-            Console.WriteLine($"name: {Name} type: {Type}");
-
             HashSet<int> Otvet = new HashSet<int>();
 
             int result;

@@ -18,8 +18,7 @@ namespace ConsoleApp2
         {
             Random rand = new Random();
 
-            Console.WriteLine($"name: {Name} type: {Type}");
-            int result = rand.Next(40, 140);
+            int result = rand.Next(40, 45);
 
             return result;          
         }

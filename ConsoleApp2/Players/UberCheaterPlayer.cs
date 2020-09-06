@@ -21,9 +21,6 @@ namespace ConsoleApp2
         {
             int result = 39;
 
-            Console.WriteLine($"name: {Name} type: {Type}");
-
-
             if (answers.Contains(result))
             {
                 result++;

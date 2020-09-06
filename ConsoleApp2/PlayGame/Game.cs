@@ -78,6 +78,7 @@ namespace ConsoleApp2
 
             for (int i = 0; i < countPlayer; i++)
             {
+                Console.WriteLine("---------------------------------------------");
                 Console.WriteLine("Creat player...");
                 PrintTypesOfPlayer();
                 Console.Write("Enter name: ");
@@ -131,7 +132,9 @@ namespace ConsoleApp2
                     {
                         end = true;
 
+                        Console.WriteLine("-------------------------------------------");
                         Console.WriteLine($"Player {player.Name}, {player.Type} win!");
+                        Console.WriteLine("-------------------------------------------");
                     }
 
                     else

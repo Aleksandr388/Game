@@ -21,8 +21,6 @@ namespace ConsoleApp2
 
         public int Play(HashSet<int> answers)
         {           
-            Console.WriteLine($"name: {Name} type: {Type}");
-
             return ++Result;
         }
     }
